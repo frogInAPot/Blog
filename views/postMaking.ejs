@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+<div class="your-post">
+    <form action="/posts" method="POST">
+    <div class="title-of-post"><h1>Title:</h1>
+        <textarea rows="2" cols="25" class="title" type="text" name="Title" placeholder="Title"></textarea>
+    </div>
+    <div class="fill-it" ><h2>What do you want to tell us about?</h2>
+        <textarea rows="2" cols="25" class="fill" type="text" name="Fill" placeholder="BANANA"></textarea>  </div>
+        <button class="submit-post">Make a post</button>
+</div>
+</form>
+<%- include("partials/footer.ejs") %>

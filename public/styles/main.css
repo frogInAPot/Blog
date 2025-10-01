@@ -1,0 +1,289 @@
+
+body{
+margin:0;
+padding: 0;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+
+footer, nav {
+  padding: 10px;
+  width: auto;
+  text-align: center;
+  background: #1c232e;
+  color: rgb(233, 233, 223);
+  font-size: 18px;
+  }
+
+footer{
+  margin-top: auto;
+    
+}
+nav{
+  position: relative;
+  box-shadow: 0 -5px 3px -3px #0f0f0f, 0 5px 3px -3px #0f0f0f;
+}
+
+nav img{
+  height: 30px;
+  position: absolute;
+  left: 40px;
+}
+
+nav ul{
+  list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+footer a, footer p, nav a{
+    color: rgb(233, 233, 223);
+    text-decoration: none;
+  }
+
+footer div{
+    display: block;
+    width: 100%;
+}
+footer li, nav li{
+    width: 200px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+footer ul{
+  list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Home */
+.greet{
+  margin-top: 100px;
+}
+ .cat{
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    
+ }
+.container{
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: left;
+}
+
+.other{
+  width: 45%;
+  height: 400px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.other h2{
+  margin-left: 5%;
+  font-size: 1.6em;
+}
+.other p{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1em;
+}
+
+.create-a-post{
+  position: relative;
+  margin-left: 80%;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 120px;
+  font-size: 0.6em;
+}
+
+.take-me-post-Making, .take-me-posts{
+  text-decoration: none;
+  color: black;
+}
+
+.posts{
+  width: 50%;
+  margin: 10px;
+  
+}
+
+.posts h3{
+ font-size: 0.8em;
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-bottom: 5px;
+}
+.posts h2{
+  margin: 20px 20px 80px 20px;
+  font-size: 1.2em;
+}
+
+.posts p{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 0.7em;
+ }
+ 
+
+.post, .post-other{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 15px;
+}
+
+.post button{
+  position: relative;
+  margin-left: 87%;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 90px;
+}
+
+.post-other button{
+  position: relative;
+  margin-left: 93%;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+.top{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* PostMaking */
+.your-post{
+  margin-top: 5%;
+  margin-left: 24%;
+  margin-bottom: 5%;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.your-post h1, .your-post h2{
+  margin-left: 4.5%;
+}
+
+.title{
+  width: 900px;
+  margin-left: 4.5%;
+  font-size: 18px;
+}
+
+.fill{
+  width: 900px;
+  height: 280px;
+  margin-left: 4.5%;
+  font-size: 18px;
+}
+
+ textarea {
+  resize: none;
+}
+
+.submit-post{
+  width: 160px;
+  height: 50px;
+  margin-top: 3%;
+  margin-left: 40%;
+  background-color: #28374e;
+}
+.submit-post{
+  font-size: 16px;
+  color: white;
+}
+
+/* Posts */
+
+
+.posts-posts{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.post-other{
+  margin-bottom: 2%;
+  padding: 1%;
+}
+.posts-posts h2{
+  margin: 5% 2% 3% 2%;
+  font-size: 1.8em;
+  text-align: center;
+  
+}
+.post-other h3, .post-other p {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  font-size: 1.3em;
+}
+.post-other h3{
+  width: 100%;
+}
+
+/* About */
+.employe{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  
+}
+
+.employees{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 80px 160px 100px 160px;
+  
+}
+.card{
+  width: 250px;
+}
+.card p{
+  font-size: 25px;
+}
+.card h2{
+  text-align: center;
+}
+
+.about{
+  margin: 100px 160px 80px 160px;
+  
+}
+.about *{
+font-size: 28px;
+text-align: center;
+margin: 80px;
+
+}
+.about h1{
+  font-size: 3em;
+}
+
+.phone-contact{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.phone{
+  font-weight: bold;
+}
+
+.phone-contact p{
+  margin: 10px;
+}
+
+
